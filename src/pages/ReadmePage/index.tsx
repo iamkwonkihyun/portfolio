@@ -1,10 +1,11 @@
 import * as S from "./styled";
-import { ReadmePageContents } from "../../constants/contents";
+import { PageContents } from "../../constants/contents";
 
 export const ReadmePage = () => {
     return (
         <S.ReadmePageMainCont>
-            {ReadmePageContents.trim()
+            {PageContents["readme"]
+                .trim()
                 .split("<br />")
                 .map((line, idx) => (
                     <div key={idx}>{line}</div>

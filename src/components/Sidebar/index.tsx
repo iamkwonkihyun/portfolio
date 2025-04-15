@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./styled";
 import { VscFiles, VscSearch, VscGithub } from "react-icons/vsc";
-import { ToggleSwitch } from "../ToggleSwitch";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 interface SidebarProps {
     isDark: boolean;
@@ -20,9 +20,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ isDark, toggleTheme }) => {
             <S.IconButton>
                 <VscGithub />
             </S.IconButton>
-            <S.ThemeToggleWrapper>
-                <ToggleSwitch isDark={isDark} toggleTheme={toggleTheme} />
-            </S.ThemeToggleWrapper>
+            <S.IconButton>
+                <S.ThemeToggleButton onClick={toggleTheme}>{isDark ? <FaMoon /> : <FaSun />}</S.ThemeToggleButton>
+            </S.IconButton>
         </S.SidebarContainer>
     );
 };

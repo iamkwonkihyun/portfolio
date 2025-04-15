@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body, html, #root {
+        font-size: 1rem;
         width: 100%;
         height: 100%;
         font-family: 'Pretendard', sans-serif;

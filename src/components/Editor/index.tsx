@@ -21,11 +21,11 @@ export const Editor = ({ activeFile }: { activeFile: string }) => {
     };
 
     const renderedLines = (
-        <div>
+        <S.CodeLine>
             {Array.from({ length: 30 }, (_, i) => (
-                <div key={i}>{i + 1}</div>
+                <S.CodeLine key={i}>{i + 1}</S.CodeLine>
             ))}
-        </div>
+        </S.CodeLine>
     );
 
     return (

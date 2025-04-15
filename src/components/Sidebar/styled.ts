@@ -23,4 +23,14 @@ export const IconButton = styled.button`
     }
 `;
 
-export const ThemeToggleWrapper = styled.div``;
+export const ThemeToggleButton = styled.button`
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+    &:hover {
+        opacity: 0.7;
+    }
+`;
