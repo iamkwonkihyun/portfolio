@@ -18,6 +18,7 @@ export const ProjectsPage = () => {
                                 <S.ProjectName href='https://github.com/iamkwonkihyun/Morse_Code' target='_blank'>
                                     Morse_code_ropository
                                 </S.ProjectName>
+                                <S.ProjectCommnet> /* Click! */</S.ProjectCommnet>
                             </S.ProjectItem>
                         );
                     case "[timetable]":

@@ -16,7 +16,7 @@ export const MystackPage = () => {
                 const trimmed = line.trim();
 
                 switch (trimmed) {
-                    case "[React]":
+                    case "[react]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,7 +24,7 @@ export const MystackPage = () => {
                                 <S.StackName>React</S.StackName>
                             </S.StackItem>
                         );
-                    case "[TypeScript]":
+                    case "[typeScript]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,7 +32,7 @@ export const MystackPage = () => {
                                 <S.StackName>TypeScript</S.StackName>
                             </S.StackItem>
                         );
-                    case "[Python]":
+                    case "[python]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -40,7 +40,7 @@ export const MystackPage = () => {
                                 <S.StackName>Python</S.StackName>
                             </S.StackItem>
                         );
-                    case "[Flask]":
+                    case "[flask]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -48,7 +48,7 @@ export const MystackPage = () => {
                                 <S.StackName>Flask</S.StackName>
                             </S.StackItem>
                         );
-                    case "[FastAPI]":
+                    case "[fastAPI]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

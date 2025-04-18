@@ -17,12 +17,13 @@ import React from "react";
 export const MyStack = () => {
 
     "FrontEnd"<br />
-        [React]<br />
-        [TypeScript]<br />
-        [Python]<br />
+        [react]<br />
+        [typeScript]<br />
     "BackEnd"<br />
-        [Flask]<br />
-        [FastAPI]<br />
+        [flask]<br />
+        [fastAPI]<br />
+    "Others"<br />
+        [python]<br />
 }
 `,
 
@@ -58,7 +59,10 @@ def about(kwon_kihyun):
     DFC(Digital Forensic Club) 차장 2024.03. ~ 2025. 02.
     DFC(Digital Forensic Club) 부원 2025.03. ~
 
-    return "DFC 3년"
+    return kwon_kihyun
+
+
+about(kwon_kihyun="권기현")
 `,
 
     contact: `
