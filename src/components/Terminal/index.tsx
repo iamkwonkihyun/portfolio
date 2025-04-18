@@ -1,5 +1,3 @@
-// components/Terminal/index.tsx
-import React from "react";
 import { TerminalWrapper } from "./styled";
 import { TerminalOutput } from "./TerminalOutput";
 

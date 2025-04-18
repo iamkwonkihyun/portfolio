@@ -1,5 +1,5 @@
 // components/Terminal/TerminalOutput.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import * as S from "./styled";
 
 const lines = ["> npm start", "Starting the development server...", "Compiled successfully!"];

@@ -11,7 +11,7 @@ export const MystackPage = () => {
     const lines = PageContents["mystack"].trim().split("<br />");
 
     return (
-        <S.MtstackPageMainCont>
+        <S.MystackPageMainCont>
             {lines.map((line, idx) => {
                 const trimmed = line.trim();
 
@@ -60,6 +60,6 @@ export const MystackPage = () => {
                         return <div key={idx}>{line}</div>;
                 }
             })}
-        </S.MtstackPageMainCont>
+        </S.MystackPageMainCont>
     );
 };
