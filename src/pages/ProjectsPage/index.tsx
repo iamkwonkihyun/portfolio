@@ -1,5 +1,7 @@
 import * as S from "./styled";
 
+import { Cursor } from "../../components";
+
 import { PageContents } from "../../constants/contents";
 
 export const ProjectsPage = () => {
@@ -64,6 +66,7 @@ export const ProjectsPage = () => {
                         return <div key={idx}>{line}</div>;
                 }
             })}
+            <Cursor />
         </S.ProjectsPageMainCont>
     );
 };

@@ -1,5 +1,7 @@
 import * as S from "./styled";
 
+import { Cursor } from "../../components";
+
 export const ContactPage = () => {
     return (
         <S.ContactPageMainCont>
@@ -24,7 +26,10 @@ export const ContactPage = () => {
                     "Click to see Instagram"
                 </S.ProjectName>
             </S.ProjectItem>
-            <S.ProjectItem>{`}`}</S.ProjectItem>
+            <S.ProjectItem>
+                {`}`}
+                <Cursor />
+            </S.ProjectItem>
         </S.ContactPageMainCont>
     );
 };

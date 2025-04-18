@@ -1,8 +1,8 @@
 export const PageContents = {
     readme: `
-^           ^          ^         ^        ^
-|___________|__________|_________|________|
-                !CLICK THIS!
+↑           ↑          ↑         ↑        ↑
+
+            click to watching
 
 # Hello, World!
 
@@ -18,12 +18,15 @@ export const MyStack = () => {
 
     "FrontEnd"<br />
         [react]<br />
-        [typeScript]<br />
+        [typescript]<br />
     "BackEnd"<br />
         [flask]<br />
-        [fastAPI]<br />
+        [fastapi]<br />
     "Others"<br />
         [python]<br />
+    "plan to learn"<br />
+        [reactnative]<br />
+        [nextjs]<br />
 }
 `,
 

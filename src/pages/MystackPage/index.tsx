@@ -2,10 +2,12 @@
 import * as S from "./styled";
 import { PageContents } from "../../constants/contents";
 import reactLogo from "../../assets/react.png";
-import tsLogo from "../../assets/typescript.png";
+import typescriptLogo from "../../assets/typescript.png";
 import pythonLogo from "../../assets/python.png";
-import fastAPILogo from "../../assets/fastapi.png";
+import fastapiLogo from "../../assets/fastapi.png";
 import flaskLogo from "../../assets/flask.png";
+import nextjsLogo from "../../assets/nextjs.png";
+import { Cursor } from "../../components";
 
 export const MystackPage = () => {
     const lines = PageContents["mystack"].trim().split("<br />");
@@ -24,11 +26,19 @@ export const MystackPage = () => {
                                 <S.StackName>React</S.StackName>
                             </S.StackItem>
                         );
-                    case "[typeScript]":
+                    case "[reactnative]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <S.StackImg src={tsLogo} alt='TypeScript' />
+                                <S.StackImg src={reactLogo} alt='React' />
+                                <S.StackName>ReactNative</S.StackName>
+                            </S.StackItem>
+                        );
+                    case "[typescript]":
+                        return (
+                            <S.StackItem key={idx}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <S.StackImg src={typescriptLogo} alt='TypeScript' />
                                 <S.StackName>TypeScript</S.StackName>
                             </S.StackItem>
                         );
@@ -48,18 +58,27 @@ export const MystackPage = () => {
                                 <S.StackName>Flask</S.StackName>
                             </S.StackItem>
                         );
-                    case "[fastAPI]":
+                    case "[fastapi]":
                         return (
                             <S.StackItem key={idx}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <S.StackImg src={fastAPILogo} alt='FastAPI' />
+                                <S.StackImg src={fastapiLogo} alt='FastAPI' />
                                 <S.StackName>FastAPI</S.StackName>
+                            </S.StackItem>
+                        );
+                    case "[nextjs]":
+                        return (
+                            <S.StackItem key={idx}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <S.StackImg src={nextjsLogo} alt='FastAPI' />
+                                <S.StackName>Next.js</S.StackName>
                             </S.StackItem>
                         );
                     default:
                         return <div key={idx}>{line}</div>;
                 }
             })}
+            <Cursor />
         </S.MystackPageMainCont>
     );
 };
