@@ -3,7 +3,7 @@ import { Cursor } from "../../components";
 import { PageContents } from "../../constants/contents";
 
 export const AboutPage = () => {
-    const lines = PageContents["readme"].trim().split("<br />");
+    const lines = PageContents["about"].trim().split("<br />");
 
     return (
         <S.AboutPageMainCont>

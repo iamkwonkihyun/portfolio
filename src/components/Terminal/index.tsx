@@ -1,10 +1,9 @@
-import { TerminalWrapper } from "./styled";
-import { TerminalOutput } from "./TerminalOutput";
+import * as S from "./styled";
 
 export const Terminal = () => {
     return (
-        <TerminalWrapper>
-            <TerminalOutput />
-        </TerminalWrapper>
+        <S.TerminalWrapper>
+            <S.TerminalInput />
+        </S.TerminalWrapper>
     );
 };
