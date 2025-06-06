@@ -32,6 +32,27 @@ export const ProjectsPage = () => {
                                 </S.ProjectName>
                             </S.ProjectItem>
                         );
+                    case "[video_lecture_auto]":
+                        return (
+                            <S.ProjectItem key={idx}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <S.ProjectName
+                                    href='https://github.com/iamkwonkihyun/Video_Lecture_Auto'
+                                    target='_blank'
+                                >
+                                    Video_Lecture_Auto_repository
+                                </S.ProjectName>
+                            </S.ProjectItem>
+                        );
+                    case "[to_do]":
+                        return (
+                            <S.ProjectItem key={idx}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <S.ProjectName href='https://github.com/iamkwonkihyun/To_Do' target='_blank'>
+                                    To_Do_repository
+                                </S.ProjectName>
+                            </S.ProjectItem>
+                        );
                     case "[dfc_recruit]":
                         return (
                             <S.ProjectItem key={idx}>

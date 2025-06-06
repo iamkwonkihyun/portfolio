@@ -38,6 +38,10 @@ export const Projects = styled.div\`<br />
     [morse_code]<br />
     Timetable - 다음 교시 과목을 알려주는 프로그램<br />
     [timetable]<br />
+    Vide_Lecture_Auto - 영상 강의를 한 번에 들어주는 프로그램<br />
+    [video_lecture_auto]<br />
+    To_Do - python으로 만든 os와 비슷한 느낌을 주는 todo<br />
+    [to_do]<br />
     DFC_Recruit - 디지털 포렌식 동아리 부원 모집 사이트<br />
     [dfc_recruit]<br />
     hanum-frontend-sports - 한세사이버보안고 체육대회 승부예측 사이트<br />
