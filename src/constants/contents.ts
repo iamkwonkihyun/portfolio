@@ -24,6 +24,13 @@ export const MyStack = () => {
         [fastapi]<br />
     "Others"<br />
         [python]<br />
+    "Certificate"
+        정보처리기능사
+        정보기기운용기능사
+        AWS Practitioner
+        ITQ 한글
+        ITQ PPT
+        GTQ 2급<br />
     "plan to learn"<br />
         [reactnative]<br />
         [nextjs]<br />
