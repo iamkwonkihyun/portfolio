@@ -34,3 +34,7 @@ export const ThemeToggleButton = styled.button`
         opacity: 0.7;
     }
 `;
+
+export const GithubLink = styled.a`
+    color: inherit;
+`;

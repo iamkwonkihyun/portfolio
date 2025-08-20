@@ -18,7 +18,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ isDark, toggleTheme }) => {
                 <VscSearch />
             </S.IconButton>
             <S.IconButton>
-                <VscGithub />
+                <S.GithubLink href='https://github.com/iamkwonkihyun' target='_blank'>
+                    <VscGithub />
+                </S.GithubLink>
             </S.IconButton>
             <S.IconButton>
                 <S.ThemeToggleButton onClick={toggleTheme}>{isDark ? <FaMoon /> : <FaSun />}</S.ThemeToggleButton>
